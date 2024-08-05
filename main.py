@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the trained model
-model = tf.keras.models.load_model('emotion_detection_model.h5')
+model = tf.keras.models.load_model('eemotion_detection_model.h5')
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Emotion labels
